@@ -41,7 +41,7 @@ const formSchema = z.object({
   role: z.enum(["admin", "user"]),
 });
 
-const EditUser = ({ username }: { username: any }) => {
+const EditUser = ({ username }: { username: string }) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
