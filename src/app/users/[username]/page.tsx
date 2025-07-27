@@ -21,8 +21,12 @@ import EditUser from "@/components/EditUser";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import AppRadialChart from "@/components/AppRadialChart";
 
-const SingleUserPage = ({ params }: { params: { username: string } }) => {
-  const { username } = params;
+const SingleUserPage = async ({
+  params,
+}: {
+  params: Promise<{ username: string }>;
+}) => {
+  const { username } = await params;
   return (
     <div>
       <Breadcrumb>
