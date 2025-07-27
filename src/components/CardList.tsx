@@ -1,16 +1,10 @@
 import React from "react";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
-  CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Button } from "./ui/button";
-import { Label } from "recharts";
-import { Input } from "./ui/input";
 import Image from "next/image";
 import { Badge } from "./ui/badge";
 

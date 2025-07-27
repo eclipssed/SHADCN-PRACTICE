@@ -8,7 +8,7 @@ import {
   SheetTitle,
 } from "./ui/sheet";
 
-import { email, z } from "zod";
+import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
@@ -35,7 +35,7 @@ const formSchema = z.object({
     .string()
     .min(2, { message: "username must be atleast 2 characters" })
     .max(50),
-  email: z.string().email({ message: "invalid email address." }),
+  email: z.email({ message: "invalid email address." }),
   phone: z.string().min(10).max(19),
   location: z.string().min(2).max(50),
   role: z.enum(["admin", "user"]),

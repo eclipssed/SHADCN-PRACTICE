@@ -17,10 +17,6 @@ import { Progress } from "@/components/ui/progress";
 import { BadgeCheck, Candy, Citrus, Shield } from "lucide-react";
 import {
   Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";

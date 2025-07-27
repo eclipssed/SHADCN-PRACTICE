@@ -3,10 +3,6 @@ import AppBarChart from "@/components/AppBarChart";
 import AppPieChart from "@/components/AppPieChart";
 import CardList from "@/components/CardList";
 import TodoList from "@/components/TodoList";
-import { Button } from "@/components/ui/button";
-import { CircleAlert, CircleAlertIcon } from "lucide-react";
-import App from "next/app";
-import Image from "next/image";
 
 export default function Home() {
   return (
