@@ -23,8 +23,6 @@ import AppRadialChart from "@/components/AppRadialChart";
 
 const SingleUserPage = ({ params }: { params: { username: string } }) => {
   const { username } = params;
-  console.log(params);
-  console.log(username);
   return (
     <div>
       <Breadcrumb>
