@@ -15,16 +15,13 @@ import {
 } from "@/components/ui/hover-card";
 import { Progress } from "@/components/ui/progress";
 import { BadgeCheck, Candy, Citrus, Shield } from "lucide-react";
-import {
-  Sheet,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import EditUser from "@/components/EditUser";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import AppRadialChart from "@/components/AppRadialChart";
 
-const SingleUserPage = ({ params }: { params: { username: any } }) => {
+const SingleUserPage = ({ params }: { params: { username: string } }) => {
   const { username } = params;
   console.log(params);
   console.log(username);
