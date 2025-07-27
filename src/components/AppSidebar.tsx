@@ -62,7 +62,7 @@ const AppSidebar = () => {
               <Link href="/">
                 <Avatar>
                   <AvatarImage src="https://avatars.githubusercontent.com/u/143472071?v=4" />
-                  <AvatarFallback>CN</AvatarFallback>
+                  <AvatarFallback>FM</AvatarFallback>
                 </Avatar>
                 <span>Furqan Mirza</span>
               </Link>

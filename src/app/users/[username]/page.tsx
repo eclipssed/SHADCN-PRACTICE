@@ -165,7 +165,7 @@ const SingleUserPage = ({ params }: { params: { username: string } }) => {
             <div className="flex items-center  gap-2">
               <Avatar className="size-12">
                 <AvatarImage src="https://avatars.githubusercontent.com/u/143472071?v=4" />
-                <AvatarFallback>CN</AvatarFallback>
+                <AvatarFallback>FM</AvatarFallback>
               </Avatar>
               <h1 className="text-xl font-semibold">John Doe</h1>
             </div>
