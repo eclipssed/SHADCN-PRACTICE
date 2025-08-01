@@ -1,14 +1,14 @@
 import {
-  CalendarHeart,
   ChevronDown,
   ChevronUp,
+  CircleDollarSign,
   Eye,
   Home,
-  Inbox,
   Plus,
   Projector,
   Search,
   Settings,
+  User,
   User2,
 } from "lucide-react";
 import React from "react";
@@ -45,8 +45,8 @@ import {
 
 const items = [
   { name: "Home", href: "/", icon: <Home /> },
-  { name: "Inbox", href: "/", icon: <Inbox /> },
-  { name: "Calender", href: "/", icon: <CalendarHeart /> },
+  { name: "Payments", href: "/payments", icon: <CircleDollarSign /> },
+  { name: "Users", href: "/users/john", icon: <User /> },
   { name: "Search", href: "/", icon: <Search /> },
   { name: "Settings", href: "/", icon: <Settings /> },
 ];
