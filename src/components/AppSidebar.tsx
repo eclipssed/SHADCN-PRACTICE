@@ -87,7 +87,7 @@ const AppSidebar = () => {
                       <span>{item.name}</span>
                     </Link>
                   </SidebarMenuButton>
-                  {item.name === "Inbox" && (
+                  {item.name === "Payments" && (
                     <SidebarMenuBadge>24</SidebarMenuBadge>
                   )}
                 </SidebarMenuItem>
